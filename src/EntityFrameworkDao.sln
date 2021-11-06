@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{010AFABE-9091-4644-9294-4FBFB5269449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{05E803FE-171F-45D3-B331-24779C401568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{419FDA71-AF82-47D9-9B46-048CD0DBA304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfDaoImplementation", "EfDaoImplementation\EfDaoImplementation.csproj", "{5C9E88CD-43BA-436F-B986-E917547B78C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Managers", "Managers\Managers.csproj", "{7EEB3DC6-F8B1-4DE2-90DA-408BE525AFFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B57D7EC-53FF-40F2-A08D-E69D0CDC326B}"
+	ProjectSection(SolutionItems) = preProject
+		DDL.sql = DDL.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{010AFABE-9091-4644-9294-4FBFB5269449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010AFABE-9091-4644-9294-4FBFB5269449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010AFABE-9091-4644-9294-4FBFB5269449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010AFABE-9091-4644-9294-4FBFB5269449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E803FE-171F-45D3-B331-24779C401568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E803FE-171F-45D3-B331-24779C401568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E803FE-171F-45D3-B331-24779C401568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E803FE-171F-45D3-B331-24779C401568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{419FDA71-AF82-47D9-9B46-048CD0DBA304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419FDA71-AF82-47D9-9B46-048CD0DBA304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419FDA71-AF82-47D9-9B46-048CD0DBA304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419FDA71-AF82-47D9-9B46-048CD0DBA304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9E88CD-43BA-436F-B986-E917547B78C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9E88CD-43BA-436F-B986-E917547B78C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9E88CD-43BA-436F-B986-E917547B78C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9E88CD-43BA-436F-B986-E917547B78C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EEB3DC6-F8B1-4DE2-90DA-408BE525AFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EEB3DC6-F8B1-4DE2-90DA-408BE525AFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EEB3DC6-F8B1-4DE2-90DA-408BE525AFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EEB3DC6-F8B1-4DE2-90DA-408BE525AFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
